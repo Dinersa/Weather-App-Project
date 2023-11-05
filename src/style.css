@@ -33,6 +33,43 @@ a {
     border-radius: 6px;
     color: white;
 }
+main{
+    padding: 30px 0;
+}
+.Weather-App-Data{
+    display: flex;
+    justify-content: space-between;
+}
+.Weather-App-City{
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+}
+.Weather-App-Detials{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(39, 33, 66, 0.4);
+    font-weight: 400;
+}
+.Weather-App-Detials strong{
+color: #f65282;
+}
+.Weather-App-Temparuture-Contianer{
+    display: flex;
+}
+.Weather-App-Icon{
+    font-size: 44px;
+    margin-top: 22px;
+}
+.Weather-App-Temparuture{
+    font-size: 88px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.Weather-App-Unit{
+    margin-top: 16px;
+    font-size: 28px;
+}
 footer{
     border-top: 1px solid #f9f7fe;
     padding: 30px 0 0 0;
