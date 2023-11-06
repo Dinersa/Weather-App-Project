@@ -29,6 +29,9 @@ function formateDate(date) {
     "Saturday",
   ];
   let day = days[date.getDay()];
+  if (minutes < 0) {
+    minutes = "0" + minutes;
+  }
 
   return day + " " + hours + ":" + minutes;
 }
