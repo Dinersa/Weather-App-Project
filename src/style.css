@@ -58,7 +58,7 @@ main {
 .Weather-App-Temparuture-Contianer {
   display: flex;
 }
-.Weather-App-Icon {
+.weather-app-icon {
   width: 88px;
   height: 88px;
 }
