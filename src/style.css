@@ -81,6 +81,12 @@ main {
   color: black;
   opacity: 0.6;
 }
+.weather-forcast-icon{
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
+}
 .weather-forecast-temperature {
   font-size: 13px;
 }
