@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .Weather-App {
-  background: white;
+  background: #e3effa;
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
@@ -26,7 +26,7 @@ a {
   padding: 15px 20px;
 }
 .search-form-button {
-  background-color: blue;
+  background-color: #034786;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -53,7 +53,7 @@ main {
   font-weight: 400;
 }
 .Weather-App-Detials strong {
-  color: #f65282;
+  color: #e13f33;
 }
 .Weather-App-Temparuture-Contianer {
   display: flex;
@@ -92,8 +92,16 @@ main {
   text-align: center;
   font-size: 13px;
 }
+.weather-forecust-temperature-max {
+  color: #e13f33;
+  font-size: 15px;
+  opacity: 0.9;
+}
 .weather-forecust-temperature-min {
   opacity: 0.6;
+}
+a {
+  color: #034786;
 }
 footer {
   border-top: 1px solid #f9f7fe;
